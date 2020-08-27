@@ -1,0 +1,272 @@
+html{
+    scroll-behavior: smooth;
+}
+
+header {
+    width: 100%;
+    height: 100%;
+    background: url(../img/Carrusel-1.jpg);
+    background-position-x: center;
+    background-repeat: none;
+    background-size:cover;
+    
+}
+header .menu a img{
+    border-radius: 50%;
+    width: 50px;
+}
+header .menu  img{
+    width: 30px;
+}
+header .menu {
+    background: #330000;
+    opacity: 85%;
+    position: fixed;
+    top: 0;
+    z-index: 9;
+}
+
+header .menu .navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    border-bottom: 2px solid #ffcc00;
+    color: #ffcc00;
+}
+
+header .menu .navbar-collapse a{
+    color: #ffff;
+}
+
+header .menu a{
+    margin-left: 30px;
+}
+header .texto{
+    text-align: center;
+    color: #ffff;
+}
+header .texto h1{
+    padding-top: 200px;
+}
+header .texto p{
+    padding-bottom: 120px;
+}
+
+header .texto .btn-light{
+    background: transparent;
+    padding: 0 50px;
+    border: 2px solid #ffffff;
+    color: #ffff;
+    margin-bottom: 200px;
+}
+
+header .texto .btn-light:hover{
+    background: #ffcc00;
+    
+}
+
+#nosotros .texto2{
+    padding-top: 90px;
+    padding-bottom: 20px;
+    height: 50%;
+}
+#nosotros .texto2 h2{
+    text-align: center;
+}
+
+#nosotros .texto2 p {
+    text-align:  justify;
+    padding: 50px;
+}
+#nosotros .contenido{
+    margin: 20px;
+}
+
+#nosotros .contenido img{
+    max-width: 100%;
+}
+
+.imagenes {
+    width: 100%;
+    padding-bottom: 80px;
+}
+
+#servicios .contenido2 img{
+    max-width: 100%;
+}
+
+#servicios .tex3 .contenido2 h2{
+    text-align: center;
+    padding-top: 90px;
+}
+#servicios .tex3 {
+    margin: 40px;
+    background: #ffcc00;
+}
+
+.servicios1 .contenido3 img {
+    max-width: 100%;
+    }
+.servicios1 .contenido{
+    padding: 100px;
+}
+
+.servicios1 .contenido3{
+    text-align: center;
+    padding-bottom: 40px;
+    width: 185px;
+    margin: auto;
+}
+
+.servicios1 .contenido3 img{
+    border-radius: 50%;
+}
+
+#equipoTrabajo{
+    width: 100%;
+    background: url(../img/equipo2.jpeg);
+    background-position-x: center;
+    background-repeat: none;
+    background-size:cover;
+    
+}
+
+#equipoTrabajo h2 {
+    text-align: center;
+    color: #ffff;
+    padding-top: 90px;
+    margin-bottom: 80px;
+}
+
+#equipoTrabajo .contenido4 {
+    max-width: 300px;
+    background: #ffff;
+    opacity: 60%;
+    padding: 50px;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+}
+
+#equipoTrabajo  img {
+    position: relative;
+    top: 50px;
+    left: 70px;
+    z-index: 8;
+    border-radius: 50%;
+}
+
+#equipoTrabajo .contenido4 p{
+    color: #330000;
+    text-align: center;
+    margin: auto;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+#equipoTrabajo .contenido4 button{
+    color: #330000;
+     
+}
+
+footer{
+    background: #330000;
+}
+
+footer  img {
+    width: 50px;
+}
+
+footer .contenido5  h4{
+    text-align: center;
+    color: #ffff;
+    margin: 10px 0;
+}
+footer .contenido5  button{
+    background: transparent;
+    border: none;
+}
+
+footer .contenido5  button.fb:hover{
+    background: blue;
+}
+
+footer .contenido5  button.tw:hover{
+    background: #00acee;
+}
+
+footer .contenido5  button.im:hover{
+    background: red;
+}
+
+footer .contenido5  button.ws:hover{
+    background: greenyellow;
+}
+
+footer .contenido5{
+    text-align: center;
+}
+
+footer .contenido5 img{
+    padding-top: 25px;
+    margin: auto;
+    padding: 25px 10px;    
+}
+
+footer .contenido6 {
+    text-align: center;
+    color: #ffff;
+    border-radius: solid 2px color #ffffff;
+}
+
+footer .contenido6 p{
+    margin: 1px;;
+}
+
+footer .contenido7 {
+    text-align: center;
+    color: #ffffff;
+
+}
+
+footer .contenido7 img{
+    margin:auto ;
+    width: 136px;
+    padding-top: 24px;
+}
+
+footer .final {
+    margin-top: 5px;
+    text-align: center;
+    color: #ffff;
+    padding-bottom: 20px;
+}
+footer .final img{
+    max-width: 60px;
+    border-radius: 50%;
+}
+
+
+
+/* RESPONSIVE - TABLET */
+@media screen and (max-width:990px) and (min-width:768px){
+    #equipoTrabajo img{
+        position: relative;
+        top: 40px;
+        left: 33px;
+    }
+    #equipoTrabajo .contenido4 button{
+        font-size: 11px;
+    }
+    #equipoTrabajo .contenido4{
+    max-width: 300px;
+    background: #ffff;
+    opacity: 60%;
+    padding: 31px;
+    margin-bottom: 40px;
+
+    }
+    #servicios .tex3 .contenido2 h2{
+        padding-top: 40px;
+    }
+} 
